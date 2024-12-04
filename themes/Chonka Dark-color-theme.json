@@ -1,5 +1,6 @@
 {
 	"name": "Chonka Dark",
+	"type": "dark",
 	"colors": {
 		"editor.background": "#231F20",
 		"editor.foreground": "#FCFCFC",
@@ -101,7 +102,7 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
 			],
 			"settings": {
 				"foreground": "#FFD166"
@@ -652,6 +653,140 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+		},
+		{
+			"name": "js/ts import",
+			"scope": [
+				"keyword.control.import.js", 
+				"keyword.control.import.ts",
+				"keyword.control.from.js",
+				"keyword.control.as.js",
+				"keyword.control.export.js",
+				"keyword.control.default.js"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "js/ts variable-other",
+			"scope": [
+				"variable.other.readwrite.alias.js",
+				"variable.other.readwrite.js",
+				"meta.export.default.js",
+				"meta.block.js",
+				"meta.import.js"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "headers source",
+			"scope": [
+				"source.js"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "trycatch await",
+			"scope": [
+				"keyword.control.trycatch.js",
+				"keyword.control.flow.js"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "function",
+			"scope": [
+				"entity.name.function.js"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "attribute name",
+			"scope": [
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "attribute name object",
+			"scope": [
+				"meta.object-literal.key.js"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "separator - comma",
+			"scope": [
+				"punctuation.separator.key-value.js",
+				"punctuation.separator.comma.js",
+				"punctuation.terminator.statement.js"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.end.js"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "tag",
+			"scope": [
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "keyword operator",
+			"scope": [
+				"keyword.operator.assignment.js",
+				"keyword.operator.logical.js"
+			],
+			"settings": {
+				"foreground": "#41c5d6"
+			}
+		},
+		{
+			"name": "react children",
+			"scope": [
+				"meta.jsx.children.js"
+			],
+			"settings": {
+				"foreground": "#E0E0E0"
+			}
+		},
+		{
+			"name": "react component",
+			"scope": [
+				"support.class.component.js",
+				"variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#FFD166"
+			}
+		},
 	]
 }
