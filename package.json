@@ -3,6 +3,7 @@
   "displayName": "Chonka Theme",
   "description": "Chonka Dark/Daltonic Theme",
   "version": "0.1.0",
+  "publisher": "castillodk",
   "repository": {
     "type": "git",
     "url": "https://github.com/felipecastillo-b/chonka-theme"
