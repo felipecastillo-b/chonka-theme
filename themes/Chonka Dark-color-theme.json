@@ -55,7 +55,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#3498DB"
+				"foreground": "#61AFEF"
 			}
 		},
 		{
@@ -82,7 +82,9 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"keyword.control.conditional.js",
+				"keyword.control.loop.js"
 			],
 			"settings": {
 				"foreground": "#c678dd"
@@ -226,7 +228,7 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -675,7 +677,8 @@
 				"variable.other.readwrite.js",
 				"meta.export.default.js",
 				"meta.block.js",
-				"meta.import.js"
+				"meta.import.js",
+				"support.type.object.module.js",
 			],
 			"settings": {
 				"foreground": "#E06C75"
@@ -703,7 +706,11 @@
 		{
 			"name": "function",
 			"scope": [
-				"entity.name.function.js"
+				"entity.name.function.js",
+				"entity.name.function.python",
+				"support.function.builtin.python",
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
 			],
 			"settings": {
 				"foreground": "#61AFEF"
@@ -743,7 +750,9 @@
 			"name": "punctuation",
 			"scope": [
 				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.end.js"
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -763,7 +772,8 @@
 			"name": "keyword operator",
 			"scope": [
 				"keyword.operator.assignment.js",
-				"keyword.operator.logical.js"
+				"keyword.operator.logical.js",
+				"keyword.operator.assignment.python"
 			],
 			"settings": {
 				"foreground": "#41c5d6"
@@ -779,13 +789,43 @@
 			}
 		},
 		{
-			"name": "react component",
+			"name": "variables js-py",
 			"scope": [
 				"support.class.component.js",
-				"variable.other.readwrite.js"
+				"variable.other.readwrite.js",
+				"variable.parameter.js",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"foreground": "#FFD166"
+			}
+		},
+		{
+			"name": "python import",
+			"scope": [
+				"keyword.control.import.python",
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "python source",
+			"scope": [
+				"source.python",
+				"variable.parameter.function.language.python",
+				"meta.fstring.python"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Namespaces",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#fff"
 			}
 		},
 	]

@@ -1,9 +1,10 @@
-# Change Log
+# CHANGELOG
 
-All notable changes to the "chonka-theme" extension will be documented in this file.
+## 0.1.2 | 2024.12.05
+- Add Python support
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.1.1 | 2024.12.04
+- Add JS-TS support
 
-## [Unreleased]
-
-- Initial release
+## 0.1.0 | 2024.12.04
+- Init Chonka Theme
